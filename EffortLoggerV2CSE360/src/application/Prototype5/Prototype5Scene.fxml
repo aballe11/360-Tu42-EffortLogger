@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Prototype5.Prototype5Controller" style="-fx-background-color: linear-gradient(to bottom, #ADD8E6, #90EE90);">
+    <children>
+        <Label layoutX="238.0" layoutY="33.0" text="PROTOTYPE 5" textAlignment="CENTER">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Button layoutX="345.0" layoutY="150.0" minWidth="150.0" minHeight="50.0" mnemonicParsing="false" onAction="#backToDashboard" text="Back to Dashboard" style="-fx-background-color: #FF6347;"/>
+        <Button layoutX="145.0" layoutY="150.0" minWidth="150.0" minHeight="50.0" mnemonicParsing="false" onAction="#submitReports" text="Submit Reports" style="-fx-background-color: #0ac910;"/>
+        
+        <!-- New elements for report entry -->
+        <Label layoutX="145.0" layoutY="220.0" text="Enter Reports:" />
+        <TextField fx:id="reportsField" layoutX="265.0" layoutY="215.0" />
+        <Label fx:id="resultLabel" layoutX="180.0" layoutY="250.0" />
+    </children>
+</AnchorPane>

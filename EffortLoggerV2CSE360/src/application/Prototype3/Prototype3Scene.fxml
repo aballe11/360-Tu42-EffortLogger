@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.control.TextArea?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Prototype3.Prototype3Controller">
+   <children>
+      <Label layoutX="195.0" layoutY="10.0" text="Report Document" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <style>
+         	-fx-text-fill: #696969;
+         </style>
+      </Label>
+      <TextArea layoutX="26.0" layoutY="70.0" prefHeight="200.0" prefWidth="548.0" promptText="Enter your feedback here..." fx:id="reportTextArea1" />
+      <Button layoutX="470.0" layoutY="360.0" mnemonicParsing="false" onAction="#backToDashboard" text="Back to Dashboard" />
+      <Button layoutX="240.0" layoutY="275.0" mnemonicParsing="false" onAction="#submit1" text="Submit Report" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="65.0" layoutY="23.0" prefHeight="66.0" prefWidth="438.0" text="This Report Will be Sent Anonymously" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <style>
+         	-fx-text-fill: #0000FF;
+         </style>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="215.0" layoutY="300.0" prefHeight="54.0" prefWidth="146.0" text="Thank you for your submission" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <style>
+         	-fx-text-fill: #808080;
+         </style>
+      </Label>
+   </children>
+</AnchorPane>

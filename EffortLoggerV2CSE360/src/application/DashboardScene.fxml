@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.DashboardController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#85c4ff" height="106.0" stroke="BLACK" strokeType="INSIDE" width="600.0" />
+      <Label layoutX="169.0" layoutY="14.0" text="EFFORT LOGGER V2.0" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Label>
+      <Label layoutX="203.0" layoutY="52.0" text="DASHBOARD" textAlignment="CENTER">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Label>
+      <Button fx:id="prototype1Button" layoutX="140.0" layoutY="145.0" mnemonicParsing="false" onAction="#openPrototype1" prefHeight="31.0" prefWidth="320.0" text="Planning Poker Tutorial Module">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+      <Button fx:id="prototype3Button" layoutX="140.0" layoutY="269.0" mnemonicParsing="false" onAction="#openPrototype3" prefHeight="31.0" prefWidth="320.0" text="Anonymous Reporting Module">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+      <Button fx:id="prototype2Button" layoutX="140.0" layoutY="207.0" mnemonicParsing="false" onAction="#openPrototype2" prefHeight="31.0" prefWidth="320.0" text="Report Quantity Privacy Protection Module">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+      <Button fx:id="prototype5Button" layoutX="140.0" layoutY="331.0" mnemonicParsing="false" onAction="#openPrototype5" prefHeight="31.0" prefWidth="320.0" text="Metadata Tag Checking Module">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+   </children>
+</AnchorPane>
