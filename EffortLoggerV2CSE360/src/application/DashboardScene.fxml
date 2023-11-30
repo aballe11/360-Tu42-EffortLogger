@@ -27,11 +27,11 @@
          <font>
             <Font size="15.0" />
          </font></Button>
-      <Button fx:id="prototype2Button" layoutX="140.0" layoutY="207.0" mnemonicParsing="false" onAction="#openPrototype2" prefHeight="31.0" prefWidth="320.0" text="Report Quantity Privacy Protection Module">
+      <Button fx:id="prototype2Button" layoutX="140.0" layoutY="207.0" mnemonicParsing="false" onAction="#openPrototype2" prefHeight="31.0" prefWidth="320.0" text="Metadata Tag Checking Module">
          <font>
             <Font size="15.0" />
          </font></Button>
-      <Button fx:id="prototype5Button" layoutX="140.0" layoutY="331.0" mnemonicParsing="false" onAction="#openPrototype5" prefHeight="31.0" prefWidth="320.0" text="Metadata Tag Checking Module">
+      <Button fx:id="prototype5Button" layoutX="140.0" layoutY="331.0" mnemonicParsing="false" onAction="#openPrototype5" prefHeight="31.0" prefWidth="320.0" text="Report Quantity Privacy Protection Module">
          <font>
             <Font size="15.0" />
          </font></Button>
