@@ -11,6 +11,7 @@ import javafx.stage.Stage;
 import java.io.IOException;
 import javafx.event.ActionEvent;
 public class PlanningPoker_Scene5Controller {
+		//Variables
 		private Stage stage;
 		private Scene scene;
 		private Parent root;
