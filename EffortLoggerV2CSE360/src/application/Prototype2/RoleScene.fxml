@@ -14,7 +14,7 @@
             <Font size="24.0" />
          </font>
       </Label>
-      <Label layoutX="35.0" layoutY="164.0" text="Your role">
+      <Label layoutX="60.0" layoutY="164.0" text="Your">
          <font>
             <Font size="12.0" />
          </font>
