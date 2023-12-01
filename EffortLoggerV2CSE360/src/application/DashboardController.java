@@ -72,7 +72,8 @@ public class DashboardController {
 		//Display the scene
 		displayScene(e);
 	}
-	
+
+	//Function that displays the initial dashboard scene.
 	private void displayScene(ActionEvent e) {
 		//Display the scene
 		stage = (Stage) ((Node)e.getSource() ).getScene().getWindow();
