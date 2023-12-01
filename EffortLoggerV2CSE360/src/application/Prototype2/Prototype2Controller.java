@@ -76,18 +76,18 @@ public class Prototype2Controller {
             }
         }
 
-        if (usernameExists) {
+        if (!usernameExists) {
+            role = "role was not found in the database. Ensure your username is correct or contact an admin for help.";
+            loader.getNamespace().put("Role", role);
             // Display whether data will be tagged with role based on roleFound
+        } else {
             if (roleFound) {
-                role = "(" + role + ") will be tagged with your logs and be visible to management";
+                role = "role, " + role + ", will be tagged with your logs and be visible to management";
                 loader.getNamespace().put("Role", role);
             } else {
-                role = "(" + role + ") will not be tagged with your logs to keep your data anonymous";
+                role = "role, " + role + ", will not be tagged with your logs to keep your data anonymous";
                 loader.getNamespace().put("Role", role);
             }
-        } else {
-            role = "was not found in the database. Ensure your username is correct or contact an admin for help.";
-            loader.getNamespace().put("Role", role);
         }
 
         root = loader.load();
