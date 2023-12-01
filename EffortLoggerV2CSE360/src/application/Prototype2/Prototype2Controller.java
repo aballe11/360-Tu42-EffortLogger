@@ -77,7 +77,7 @@ public class Prototype2Controller {
         }
 
         if (!usernameExists) {
-            role = "role was not found in the database. Ensure your username is correct or contact an admin for help.";
+            role = "role was not found in the database. Ensure your username is correct or contact an admin.";
             loader.getNamespace().put("Role", role);
             // Display whether data will be tagged with role based on roleFound
         } else {
